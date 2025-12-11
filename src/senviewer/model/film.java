@@ -1,6 +1,6 @@
 package senviewer.model;
 
-public class film {
+public class Film {
     private int id;
     private String title;
     private String genre;
@@ -10,7 +10,7 @@ public class film {
     private boolean viewed;
 
     // Constructor solicitado
-    public film(String title, String genre, String creator, int duration) {
+    public Film(String title, String genre, String creator, int duration) {
         this.title = title;
         this.genre = genre;
         this.creator = creator;
