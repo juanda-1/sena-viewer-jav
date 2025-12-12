@@ -1,0 +1,25 @@
+# Ignorar archivos compilados
+*.class
+
+# Ignorar carpeta de compilación
+bin/
+out/
+build/
+target/
+
+# Archivos del IDE
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
